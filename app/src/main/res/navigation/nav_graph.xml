@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/cambiadorFragment">
+
+    <fragment
+        android:id="@+id/cambiadorFragment"
+        android:name="com.example.a5_estaciones_nereidabarba.EstacionFragment"
+        android:label="fragment_cambiador"
+        tools:layout="@layout/fragment_estacion" />
+</navigation>
