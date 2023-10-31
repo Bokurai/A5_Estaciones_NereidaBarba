@@ -43,40 +43,40 @@ public class RotacionViewModel extends AndroidViewModel {
                     int imagen;
                     switch (estacion) {
                         default:
-                        case "MES1":
+                        case "1":
                             imagen = R.drawable.winter;
                             break;
-                        case "MES2":
+                        case "2":
                             imagen = R.drawable.winter;
                             break;
-                        case "MES3":
+                        case "3":
                             imagen = R.drawable.spring;
                             break;
-                        case "MES4":
+                        case "4":
                             imagen = R.drawable.spring;
                             break;
-                        case "MES5":
+                        case "5":
                             imagen = R.drawable.spring;
                             break;
-                        case "MES6":
+                        case "6":
                             imagen = R.drawable.summer;
                             break;
-                        case "MES7":
+                        case "7":
                             imagen = R.drawable.summer;
                             break;
-                        case "MES8":
+                        case "8":
                             imagen = R.drawable.summer;
                             break;
-                        case "MES9":
+                        case "9":
                             imagen = R.drawable.autumn;
                             break;
-                        case "MES10":
+                        case "10":
                             imagen = R.drawable.autumn;
                             break;
-                        case "MES11":
+                        case "11":
                             imagen = R.drawable.autumn;
                             break;
-                        case "MES12":
+                        case "12":
                             imagen = R.drawable.winter;
                             break;
                     }
@@ -101,40 +101,40 @@ public class RotacionViewModel extends AndroidViewModel {
                     String nombreMes;
                     switch (mes) {
                         default:
-                        case "MES1":
+                        case "1":
                          nombreMes = "ENERO";
                             break;
-                        case "MES2":
+                        case "2":
                             nombreMes = "FEBRERO";
                             break;
-                        case "MES3":
+                        case "3":
                             nombreMes = "MARZO";
                             break;
-                        case "MES4":
+                        case "4":
                             nombreMes = "ABRIL";
                             break;
-                        case "MES5":
+                        case "5":
                             nombreMes = "MAYO";
                             break;
-                        case "MES6":
+                        case "6":
                             nombreMes = "JUNIO";
                             break;
-                        case "MES7":
+                        case "7":
                             nombreMes = "JULIO";
                             break;
-                        case "MES8":
+                        case "8":
                             nombreMes = "AGOSTO";
                             break;
-                        case "MES9":
+                        case "9":
                             nombreMes = "SEPTIEMBRE";
                             break;
-                        case "MES10":
+                        case "10":
                             nombreMes = "OCTUBRE";
                             break;
-                        case "MES11":
+                        case "11":
                             nombreMes = "NOVIEMBRE";
                             break;
-                        case "MES12":
+                        case "12":
                             nombreMes = "DICIEMBRE";
                             break;
                     }

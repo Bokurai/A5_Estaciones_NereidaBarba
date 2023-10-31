@@ -37,6 +37,7 @@ public class EstacionFragment extends Fragment {
 
             @Override
             public void onChanged(String mes) {
+
                 binding.mes.setText(mes);
             }
         });
